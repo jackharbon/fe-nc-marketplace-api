@@ -1,7 +1,7 @@
 {
   "name": "team-fe-nc-marketplace-api",
   "version": "1.0.0",
-  "description": "",
+  "description": "This is an express server for use with the [fe-nc-marketplace sprint](https://github.com/northcoders/fe-nc-marketplace)",
   "main": "app.js",
   "scripts": {
     "test": "jest --watch",
@@ -20,10 +20,11 @@
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^10.0.0",
-    "express": "^4.17.1",
-    "knex": "^0.95.11",
+    "express": "^4.18.2",
+    "knex": "^0.95.15",
     "lodash": "^4.17.21",
-    "pg": "^8.7.1",
+    "npm": "^9.1.2",
+    "pg": "^8.8.0",
     "yup": "^0.32.11"
   },
   "devDependencies": {
@@ -31,7 +32,7 @@
     "jest": "^27.2.5",
     "jest-extended": "^1.0.0",
     "jest-sorted": "^1.0.12",
-    "nodemon": "^2.0.13",
+    "nodemon": "^2.0.20",
     "supertest": "^6.1.6"
   },
   "jest": {
@@ -39,5 +40,16 @@
       "jest-extended/all",
       "jest-sorted"
     ]
-  }
+  },
+  "directories": {
+    "doc": "docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jackharbon/fe-nc-marketplace-api.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jackharbon/fe-nc-marketplace-api/issues"
+  },
+  "homepage": "https://github.com/jackharbon/fe-nc-marketplace-api#readme"
 }
